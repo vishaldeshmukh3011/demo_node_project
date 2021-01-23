@@ -10,5 +10,5 @@ app.get("/api/test", (req, res) => {
 });
 
 app.listen(4001, () => {
-    console.log("running on 4001......")
+    console.log("running on 4001......hello")
 });
