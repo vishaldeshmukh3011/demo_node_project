@@ -6,9 +6,9 @@ global.app = express();
 // app.use(bodyParser.json());
 
 app.get("/api/test", (req, res) => {
-    res.send("api test route");
+    res.send(`api test route ${process.env.NAME}`);
 });
 
 app.listen(4001, () => {
-    console.log("running on 4001......hello")
+    console.log("running on ${process.env.PORT}")
 });
