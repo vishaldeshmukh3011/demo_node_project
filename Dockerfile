@@ -6,6 +6,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 4001
+EXPOSE 401
 
 CMD [ "npm", "test" ]
